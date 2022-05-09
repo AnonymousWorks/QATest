@@ -8,9 +8,9 @@ QA software.
 
 
 ### Environment build
-0. download datasets 
-1. build SLAHAN environment following the tutorial [SLAHAN](https://github.com/kamigaito/SLAHAN)
-2. install all python dependent packages for QATest
+1. download all datasets from this [Link](https://drive.google.com/drive/folders/1gKILcVQmgn2wgK4MYd7YnuZ7pyID11lU) and put it in the root directory
+2. build SLAHAN environment following the tutorial [SLAHAN](https://github.com/kamigaito/SLAHAN)
+3. install all python dependent packages for QATest
 ```
 pip install -r requirements.txt
 ```
@@ -18,10 +18,10 @@ pip install -r requirements.txt
 
 ### Run QATest
 
-0. run SLAHAN to compress the seed question into a short question. 
+1. run SLAHAN to compress the seed question into a short question. 
 The compressed questions are saved in path `datasets/compress`
 
-1. run QATest to generate all new test cases and detect bugs. 
+2. run QATest to generate all new test cases and detect bugs. 
 The results are saved in path `QATest/results/`
 
 ```
