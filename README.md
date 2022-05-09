@@ -21,7 +21,7 @@ pip install -r requirements.txt
 1. run SLAHAN to compress the seed question into a short question. 
 The compressed questions are saved in path `datasets/compress`
 
-2. run QATest to generate all new test cases and detect bugs. 
+2. run QATest to generate all new test cases and detected bugs. 
 The results are saved in path `QATest/results/`
 
 ```
