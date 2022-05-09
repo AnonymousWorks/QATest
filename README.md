@@ -25,7 +25,7 @@ The compressed questions are saved in path `datasets/compress`
 The results are saved in path `QATest/results/`
 
 ```
-cd ../script/
+cd script/
 python run.py project_name  # valid project_name are 'boolq', 'squad2', 'narrative' 
 ```
 
