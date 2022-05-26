@@ -13,6 +13,11 @@ QA software.
 ```
 pip install -r requirements.txt
 ```
+4. unzip the file benepar_en3.zip in 3rd_models
+```
+cd 3rd_models
+unzip benepar_en3.zip
+```
 
 
 ### Run QATest
