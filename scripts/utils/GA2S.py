@@ -535,7 +535,7 @@ def GA2S(question):
 
 
 nlp_spacy = spacy.load('en_core_web_sm')
-benepar_path = "/share_container/pycharmProjects/QATesting2/baseline/benepar_en3"
+benepar_path = "../3rd_models/benepar_en3"
 if spacy.__version__.startswith('2'):
     nlp_spacy.add_pipe(BeneparComponent(benepar_path))
 else:
