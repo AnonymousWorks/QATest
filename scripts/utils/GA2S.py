@@ -541,7 +541,7 @@ if spacy.__version__.startswith('2'):
 else:
     nlp_spacy.add_pipe("benepar", config={"model": benepar_path})
 try:
-    print(conjugate("eat", tense=PAST))  # 第一次使用conjugate定会报错，所以先随机使用一下，
+    print(conjugate("eat", tense=PAST))  
 except Exception as e:
     print("This is a workaround for the bug: ", e)
 
